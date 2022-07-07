@@ -1,17 +1,25 @@
-body{
+* {
     margin: 0px;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    min-height: 100vh;
 }
 
 #container{
-    background-color: blueviolet;
+    background-color: white;
     min-width: 960px;
     min-height: 960px;
-    
+    display: grid;
+    border: 3px solid yellowgreen;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .square{
-    background-color: black;
-    width: 50px;
-    height: 50px;
-    border: 5px solid white;
+    background-color: white;
+    border: 3px solid sandybrown;
 }

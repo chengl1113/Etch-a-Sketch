@@ -9,3 +9,11 @@ for (let i = 0; i < rows; i++){
     }
 }
 
+const squares = document.querySelectorAll('.square');
+squares.forEach((square) => {
+    square.addEventListener("mouseover", hover(square));
+});
+
+function hover(square){
+    square.style.background = 'blue;'
+}
