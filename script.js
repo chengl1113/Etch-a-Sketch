@@ -11,9 +11,8 @@ for (let i = 0; i < rows; i++){
 
 const squares = document.querySelectorAll('.square');
 squares.forEach((square) => {
-    square.addEventListener("mouseover", hover(square));
+    square.addEventListener('mouseover', () => {
+        square.style.backgroundColor = 'black';
+    })
 });
 
-function hover(square){
-    square.style.background = 'blue;'
-}
