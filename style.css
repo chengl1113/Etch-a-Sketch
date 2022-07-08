@@ -6,12 +6,15 @@
 
 body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container{
     background-color: white;
-    min-width: 960px;
-    min-height: 960px;
+    width: 80vh;
+    height: 80vh;
     display: grid;
     border: 3px solid yellowgreen;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -22,4 +25,8 @@ body{
 .square{
     background-color: white;
     border: 3px solid sandybrown;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
 }
+
