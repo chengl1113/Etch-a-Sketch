@@ -16,3 +16,9 @@ squares.forEach((square) => {
     })
 });
 
+const btn = document.querySelector('.btn');
+btn.addEventListener('click', () => {
+    squares.forEach(square => {
+        square.style.backgroundColor = 'white';
+    });
+})
