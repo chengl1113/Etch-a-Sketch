@@ -5,7 +5,6 @@
 }
 
 body{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,20 +12,24 @@ body{
 
 #container{
     background-color: white;
-    width: 80vh;
-    height: 80vh;
+    width: 90vh;
+    height: 90vh;
     display: grid;
-    border: 3px solid yellowgreen;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 3px solid black;
+    gap: 0px 0px;
 
 }
 
 .square{
     background-color: white;
-    border: 3px solid sandybrown;
-    width: 100%;
-    padding-top: 100%;
+    border: 1px solid black;
     position: relative;
+
 }
 
+.btn{
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 5px;
+}
